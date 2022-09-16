@@ -95,4 +95,4 @@ app.get('/games/:id/discord', async (request, response) => {
   });
 });
 
-app.listen(3333, () => console.log("Running at port 3333 🔥"));
+app.listen(3333, () => console.log(`🔥 Running at http://localhost:${3333}`));
