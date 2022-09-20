@@ -20,9 +20,9 @@ Aplicação foi desenvolvida durante o *NLW eSports*, organizado pela [Rocketsea
 ## Layout
 
 ### Web:
-<p>
- <img src="./web/.github/web-home.png"  alt="web home"/>
- <img src="./web/.github/web-ad.png"  width="50%"  alt="web ad"/>
+<p align="center">
+ <img src="./web/.github/web-home.png" alt="web home"/>
+ <img src="./web/.github/web-ad.png"  alt="web ad"/>
 </p>
 
 ### Mobile:
