@@ -23,6 +23,6 @@ export const styles = StyleSheet.create({
     color: THEME.COLORS.TEXT,
     fontFamily: THEME.FONT_FAMILY.BOLD,
     fontSize: THEME.FONT_SIZE.SM,
-    // marginLeft: 8,
+    marginLeft: 8,
   },
 });

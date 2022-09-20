@@ -42,7 +42,7 @@ app.post('/games/:id/ads', async (request, response) => {
       hourEnd: convertHourStringToMinutes(body.hourEnd),
       useVoiceChannel: body.useVoiceChannel,
     },
-  })
+  });
 
   return response.status(201).json(ad);
 });
@@ -78,7 +78,7 @@ app.get('/games/:id/ads', async (request, response) => {
   }));
 });
 
-app.get('/games/:id/discord', async (request, response) => {
+app.get('/ads/:id/discord', async (request, response) => {
   const adId = request.params.id;
 
   const ad = await prisma.ad.findUniqueOrThrow({

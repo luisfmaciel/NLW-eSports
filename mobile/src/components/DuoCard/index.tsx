@@ -1,4 +1,4 @@
-import { GameController } from 'phosphor-react-native';
+import { Ionicons } from '@expo/vector-icons';
 import { Text, TouchableOpacity, View } from 'react-native';
 
 import { THEME } from '../../theme';
@@ -49,10 +49,11 @@ export function DuoCard({ data, onConnect }: Props) {
         style={styles.button}
         onPress={onConnect}
       >
-        {/* <GameController
+        <Ionicons
+          name='game-controller-outline'
           color={THEME.COLORS.TEXT}
-          size={20}
-        /> */}
+          size={24}
+        />
         <Text style={styles.buttonTitle}>
           Conectar
         </Text>
